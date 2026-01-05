@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: OpenMobileContextEnvSense
+message: "If you use this software or dataset, please cite the accompanying paper."
+type: software
+authors:
+  - family-names: Mansour
+    given-names: Ahmed
+repository-code: "https://github.com/AhmedMansoour/OpenMobileContextEnvSense"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Understanding Unseen Environments with Multimodal Mobile Sensing: A Review of Computational Methods and Zero-Shot Generalization Challenges"
+  authors:
+    - family-names: Mansour
+      given-names: Ahmed
+    - family-names: Chen
+      given-names: Wu
+    - family-names: Wang
+      given-names: Jingxian
+    - family-names: Adham
+      given-names: Mahmoud
+    - family-names: Elrifaee
+      given-names: Mohamed
+    - family-names: Mahmoud
+      given-names: Mostafa
+  year: 2026
+  status: "under review"
+  url: "https://github.com/AhmedMansoour/OpenMobileContextEnvSense"

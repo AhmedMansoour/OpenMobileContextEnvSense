@@ -2,7 +2,7 @@
 
 OpenMobileContextEnvSense is an open-source Android sensing framework and dataset ecosystem for **multimodal mobile environmental context understanding**. It targets realistic deployments where **indoor–outdoor inference**, **transition-zone ambiguity**, and **device and usage heterogeneity** can degrade brittle rules and overfitted models.
 
-**Paper (under review):** *Understanding Unseen Environments with Multimodal Mobile Sensing: A Review of Computational Methods and Zero-Shot Generalization Challenges*  
+**Paper (under review):** *Environmental-State Inference from Non-Visual Mobile Sensing: A Scoping Review of Computational Methods, Generalization, and Deployment*  
 **Authors:** Ahmed Mansour, Wu Chen, Jingxian Wang, Mahmoud Adham, Mohamed Elrifaee, Mostafa Mahmoud
 
 ---

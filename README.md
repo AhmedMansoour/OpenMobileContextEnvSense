@@ -9,8 +9,9 @@ OpenMobileContextEnvSense is an open-source Android sensing framework and datase
 
 ## ✨ What is included in this repository
 
-- ✅ **Public sample dataset** (one labeled session) under `data/datasets/`
-- 🧾 **Dataset description** and schema notes under `data/datasets/README.md`
+- ✅ **Public six-session dataset release** under [`data/datasets/public_2026_11_07/`](data/datasets/public_2026_11_07/) (154.8 minutes of recordings; 120 context-label events)
+- 📱 **Android Studio Java label-logger source** under [`android/IndoorOutdoorDetection/`](android/IndoorOutdoorDetection/) (source released; clean build not independently verified)
+- 🧾 **Dataset schema, de-identification and checksums** in [release README](data/datasets/public_2026_11_07/README.md) and [manifest](data/datasets/public_2026_11_07/manifest.json)
 - 📈 **Example plots** and 🖥️ **app UI screenshots** under `assets/`
 - 📓 **Analysis notebook** under `notebooks/`
 - 🛠️ Minimal scripts for validation and session summarization under `scripts/`
@@ -109,17 +110,17 @@ LoggerService (Android)
 
 ## 📦 Datasets
 
-### ✅ Public sample (available now)
-- `data/datasets/IOD_Record_1761144837784_public.zip`
-- Details, schema notes, and file listing are provided in `data/datasets/README.md`.
+### ✅ Public six-session field release (2026-11-07)
+- [Six labeled, privacy-reduced session archives](data/datasets/public_2026_11_07/), `session_01.zip` through `session_06.zip`
+- [Data description and limitations](data/datasets/public_2026_11_07/README.md) and [file manifest / checksums](data/datasets/public_2026_11_07/manifest.json)
+- [Android Studio logging and labeling application source](android/IndoorOutdoorDetection/) and [release description](docs/R1_RELEASE_2026_11_07.md)
 
-**Privacy safeguards in the public sample**
-- Latitude and longitude are removed from GNSS fix outputs where applicable.
-- Raw GNSS NMEA is excluded when it may embed location information.
-- Audio is stored as features only.
+**Privacy safeguards in the public release**
+- Absolute GNSS coordinates, raw NMEA, network identifiers, and original timestamps are excluded or transformed as described in the release documentation.
+- Signal measurements and relative timing are retained; audio is represented by features, not raw recordings.
+- De-identification reduces but does not eliminate re-identification risk; dataset permissions and consent remain the responsibility of the data provider.
 
-### 🕒 Additional datasets (coming soon)
-Multiple datasets have already been collected under diverse **environment labels** and **transportation modes**, including **bus**, **train**, **metro**, and **car**, with corresponding **motion states**, **device poses**, and ground-truth labeling. The remaining sessions and their ground-truth labels will be released soon.
+The six recordings illustrate data collection and annotation. They are **not** six independent benchmark datasets, and they are **not** part of the 108 reports / 105 independent families systematically reviewed in the accompanying article.
 
 ---
 
@@ -155,6 +156,7 @@ python scripts/summarize_session.py --zip data/datasets/IOD_Record_1761144837784
 
 ```text
 OpenMobileContextEnvSense/
+├─ android/        # Android Studio source release
 ├─ assets/
 ├─ data/
 ├─ docs/

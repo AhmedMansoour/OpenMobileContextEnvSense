@@ -9,7 +9,7 @@ repository-code: "https://github.com/AhmedMansoour/OpenMobileContextEnvSense"
 license: MIT
 preferred-citation:
   type: article
-  title: "Understanding Unseen Environments with Multimodal Mobile Sensing: A Review of Computational Methods and Zero-Shot Generalization Challenges"
+  title: "Environmental-State Inference from Non-Visual Mobile Sensing: A Scoping Review of Computational Methods, Generalization, and Deployment"
   authors:
     - family-names: Mansour
       given-names: Ahmed

@@ -1,0 +1,35 @@
+<resources>
+    <string-array name="places">
+        <item>Unlabeled</item>
+        <item>Indoor Deep</item>
+        <item>Indoor Near Window</item>
+        <item>Semi-Outdoor</item>
+        <item>Outdoor</item>
+        <item>Tunnel</item>
+        <item>Footbridge</item>
+        <item>Underground Floor</item>
+    </string-array>
+
+    <string-array name="transports">
+        <item>Unknown</item>
+        <item>On Foot</item>
+        <item>Car</item>
+        <item>Bus</item>
+        <item>Train</item>
+        <item>Metro</item>
+    </string-array>
+
+    <string-array name="motions">
+        <item>Standing</item>
+        <item>Walking</item>
+        <item>Running</item>
+        <item>Sitting</item>
+    </string-array>
+
+    <string-array name="poses">
+        <item>Texting</item>
+        <item>Calling</item>
+        <item>In Pocket</item>
+        <item>In Bag</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <!-- Spinner style for dark background -->
+
+    <!-- Spinner style for dark background -->
+    <style name="SpinnerDark" parent="Widget.AppCompat.Spinner">
+        <item name="android:popupBackground">#2A2A2A</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:dropDownSelector">@android:color/darker_gray</item>
+    </style>
+
+</resources>

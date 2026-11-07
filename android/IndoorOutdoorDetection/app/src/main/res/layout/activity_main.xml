@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#255D6D"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- HEADER -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📡 Data Logger Console"
+        android:textColor="#00FFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <!-- START / STOP -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START LOGGING"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00897B"
+            android:textAllCaps="true"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP LOGGING"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#C62828"
+            android:textAllCaps="true" />
+
+
+
+    </LinearLayout>
+
+    <!-- LABEL CONTROLS -->
+    <TextView
+        android:text="Ground-Truth Labels"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- FIRST ROW: PLACE / TRANSPORT -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="6dp">
+
+        <Spinner
+            android:id="@+id/spinnerPlace"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:prompt="@string/prompt_place"
+            android:spinnerMode="dropdown" />
+
+        <Spinner
+            android:id="@+id/spinnerTransport"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:prompt="@string/prompt_transport"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <!-- SECOND ROW: MOTION / POSE -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="4dp">
+
+        <Spinner
+            android:id="@+id/spinnerMotion"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:prompt="@string/prompt_motion"
+            android:spinnerMode="dropdown" />
+
+        <Spinner
+            android:id="@+id/spinnerPose"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:prompt="@string/prompt_pose"/>
+    </LinearLayout>
+
+    <!-- LIVE STREAM VIEW -->
+    <TextView
+        android:text="Live Sensor Stream"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="12dp"
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/ic_menu_sort_by_size"
+        android:drawablePadding="6dp"
+        android:gravity="center_vertical" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/logRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="6dp"
+        android:background="#1E1E1E"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="true"
+        android:overScrollMode="ifContentScrolls" />
+
+</LinearLayout>

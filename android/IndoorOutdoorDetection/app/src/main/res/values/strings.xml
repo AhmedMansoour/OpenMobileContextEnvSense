@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Data Logger and Labeling</string>
+        <string name="prompt_place">Select IO Mode</string>
+        <string name="prompt_transport">Select Transport Mode</string>
+        <string name="prompt_motion">Select Motion Mode</string>
+        <string name="prompt_pose">Select Pose Mode</string>
+</resources>

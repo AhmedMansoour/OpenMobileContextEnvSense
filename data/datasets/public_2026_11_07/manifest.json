@@ -1,0 +1,1538 @@
+{
+  "release_version": "2026-11-07",
+  "release_name": "OpenMobileContextEnvSense: Six de-identified field sessions",
+  "license": "CC BY 4.0",
+  "sessions_n": 6,
+  "total_duration_minutes": 154.839,
+  "sessions": [
+    {
+      "session_id": "session_01",
+      "streams": {
+        "accel.csv": {
+          "rows": 82656,
+          "columns": [
+            "t_rel_ms",
+            "ax",
+            "ay",
+            "az"
+          ],
+          "min_relative_ms": 2,
+          "max_relative_ms": 1015735,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "audio.csv": {
+          "rows": 222,
+          "columns": [
+            "t_rel_ms",
+            "rms",
+            "dbfs",
+            "peak"
+          ],
+          "min_relative_ms": 638,
+          "max_relative_ms": 1012136,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "cell_snapshot.csv": {
+          "rows": 870,
+          "columns": [
+            "t_rel_ms",
+            "cell_id",
+            "rat",
+            "registered",
+            "dbm",
+            "rsrp",
+            "rsrq",
+            "rssnr",
+            "cqi",
+            "ta",
+            "ssRsrp",
+            "ssRsrq",
+            "ssSinr",
+            "csiRsrp",
+            "csiRsrq",
+            "csiSinr",
+            "level"
+          ],
+          "min_relative_ms": 54,
+          "max_relative_ms": 1015310,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gnss_fix.csv": {
+          "rows": 355,
+          "columns": [
+            "t_rel_ms",
+            "provider",
+            "speed_mps",
+            "bearing_deg",
+            "acc_m",
+            "vertAcc_m",
+            "speedAcc_mps",
+            "bearingAcc_deg"
+          ],
+          "min_relative_ms": 3607,
+          "max_relative_ms": 977375,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gnss_sv.csv": {
+          "rows": 40035,
+          "columns": [
+            "t_rel_ms",
+            "svid",
+            "constellation",
+            "usedInFix",
+            "cn0_dbhz",
+            "elev_deg",
+            "az_deg",
+            "cf_hz",
+            "hasAlm",
+            "hasEph"
+          ],
+          "min_relative_ms": 818,
+          "max_relative_ms": 1015343,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gyro.csv": {
+          "rows": 51346,
+          "columns": [
+            "t_rel_ms",
+            "gx",
+            "gy",
+            "gz"
+          ],
+          "min_relative_ms": 767,
+          "max_relative_ms": 1015726,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "labels.csv": {
+          "rows": 24,
+          "columns": [
+            "t_rel_ms",
+            "place",
+            "transport",
+            "motion",
+            "pose"
+          ],
+          "min_relative_ms": 3353,
+          "max_relative_ms": 981056,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "light.csv": {
+          "rows": 2904,
+          "columns": [
+            "t_rel_ms",
+            "light_lux"
+          ],
+          "min_relative_ms": 2,
+          "max_relative_ms": 1015736,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "mag.csv": {
+          "rows": 82653,
+          "columns": [
+            "t_rel_ms",
+            "mx",
+            "my",
+            "mz",
+            "mag_norm"
+          ],
+          "min_relative_ms": 5,
+          "max_relative_ms": 1015735,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "pressure.csv": {
+          "rows": 10027,
+          "columns": [
+            "t_rel_ms",
+            "pressure_hpa"
+          ],
+          "min_relative_ms": 2,
+          "max_relative_ms": 1015667,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "proximity.csv": {
+          "rows": 46,
+          "columns": [
+            "t_rel_ms",
+            "proximity_cm"
+          ],
+          "min_relative_ms": 0,
+          "max_relative_ms": 1011667,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "rotation.csv": {
+          "rows": 50788,
+          "columns": [
+            "t_rel_ms",
+            "qx",
+            "qy",
+            "qz",
+            "qw",
+            "yaw_deg",
+            "pitch_deg",
+            "roll_deg"
+          ],
+          "min_relative_ms": 3,
+          "max_relative_ms": 1015728,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "wifi_ap.csv": {
+          "rows": 42083,
+          "columns": [
+            "t_rel_ms",
+            "ap_id",
+            "frequency",
+            "level",
+            "centerFreq0",
+            "centerFreq1",
+            "channelWidth"
+          ],
+          "min_relative_ms": 1879,
+          "max_relative_ms": 1014130,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "wifi_scan.csv": {
+          "rows": 348,
+          "columns": [
+            "t_rel_ms",
+            "elapsed_ms",
+            "ap_count",
+            "mean_level",
+            "strongest_level"
+          ],
+          "min_relative_ms": 1879,
+          "max_relative_ms": 1014130,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        }
+      },
+      "label_events": {
+        "place": {
+          "indoor_deep": 13,
+          "indoor_near_window": 3,
+          "footbridge": 4,
+          "elevator": 2,
+          "outdoor": 1,
+          "semi_outdoor": 1
+        },
+        "transport": {
+          "unknown": 1,
+          "on_foot": 23
+        },
+        "motion": {
+          "unknown": 2,
+          "on_table": 2,
+          "walking_with_minor_stops": 20
+        },
+        "pose": {
+          "unknown": 3,
+          "on_table": 2,
+          "hand_holding_horizontal": 19
+        }
+      },
+      "bytes": 4104507,
+      "sha256": "7d21047ea0a51330c8a883b34bab85e5f1392e16eae0f61e3ff04ddd5f6b887d",
+      "duration_s": 1015.736
+    },
+    {
+      "session_id": "session_02",
+      "streams": {
+        "accel.csv": {
+          "rows": 259734,
+          "columns": [
+            "t_rel_ms",
+            "ax",
+            "ay",
+            "az"
+          ],
+          "min_relative_ms": 2,
+          "max_relative_ms": 2706139,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "audio.csv": {
+          "rows": 591,
+          "columns": [
+            "t_rel_ms",
+            "rms",
+            "dbfs",
+            "peak"
+          ],
+          "min_relative_ms": 551,
+          "max_relative_ms": 2705233,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "cell_snapshot.csv": {
+          "rows": 3812,
+          "columns": [
+            "t_rel_ms",
+            "cell_id",
+            "rat",
+            "registered",
+            "dbm",
+            "rsrp",
+            "rsrq",
+            "rssnr",
+            "cqi",
+            "ta",
+            "ssRsrp",
+            "ssRsrq",
+            "ssSinr",
+            "csiRsrp",
+            "csiRsrq",
+            "csiSinr",
+            "level"
+          ],
+          "min_relative_ms": 12,
+          "max_relative_ms": 2703809,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gnss_fix.csv": {
+          "rows": 1372,
+          "columns": [
+            "t_rel_ms",
+            "provider",
+            "speed_mps",
+            "bearing_deg",
+            "acc_m",
+            "vertAcc_m",
+            "speedAcc_mps",
+            "bearingAcc_deg"
+          ],
+          "min_relative_ms": 726,
+          "max_relative_ms": 2206191,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gnss_sv.csv": {
+          "rows": 142624,
+          "columns": [
+            "t_rel_ms",
+            "svid",
+            "constellation",
+            "usedInFix",
+            "cn0_dbhz",
+            "elev_deg",
+            "az_deg",
+            "cf_hz",
+            "hasAlm",
+            "hasEph"
+          ],
+          "min_relative_ms": 992,
+          "max_relative_ms": 2705363,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gyro.csv": {
+          "rows": 142533,
+          "columns": [
+            "t_rel_ms",
+            "gx",
+            "gy",
+            "gz"
+          ],
+          "min_relative_ms": 669,
+          "max_relative_ms": 2706140,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "labels.csv": {
+          "rows": 29,
+          "columns": [
+            "t_rel_ms",
+            "place",
+            "transport",
+            "motion",
+            "pose"
+          ],
+          "min_relative_ms": 2494,
+          "max_relative_ms": 2693813,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "light.csv": {
+          "rows": 7732,
+          "columns": [
+            "t_rel_ms",
+            "light_lux"
+          ],
+          "min_relative_ms": 2,
+          "max_relative_ms": 2705801,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "mag.csv": {
+          "rows": 259728,
+          "columns": [
+            "t_rel_ms",
+            "mx",
+            "my",
+            "mz",
+            "mag_norm"
+          ],
+          "min_relative_ms": 658,
+          "max_relative_ms": 2706139,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "pressure.csv": {
+          "rows": 32561,
+          "columns": [
+            "t_rel_ms",
+            "pressure_hpa"
+          ],
+          "min_relative_ms": 2,
+          "max_relative_ms": 2706091,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "proximity.csv": {
+          "rows": 99,
+          "columns": [
+            "t_rel_ms",
+            "proximity_cm"
+          ],
+          "min_relative_ms": 0,
+          "max_relative_ms": 2474722,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "rotation.csv": {
+          "rows": 135307,
+          "columns": [
+            "t_rel_ms",
+            "qx",
+            "qy",
+            "qz",
+            "qw",
+            "yaw_deg",
+            "pitch_deg",
+            "roll_deg"
+          ],
+          "min_relative_ms": 2,
+          "max_relative_ms": 2706123,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "wifi_ap.csv": {
+          "rows": 97376,
+          "columns": [
+            "t_rel_ms",
+            "ap_id",
+            "frequency",
+            "level",
+            "centerFreq0",
+            "centerFreq1",
+            "channelWidth"
+          ],
+          "min_relative_ms": 1872,
+          "max_relative_ms": 2705646,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "wifi_scan.csv": {
+          "rows": 912,
+          "columns": [
+            "t_rel_ms",
+            "elapsed_ms",
+            "ap_count",
+            "mean_level",
+            "strongest_level"
+          ],
+          "min_relative_ms": 1872,
+          "max_relative_ms": 2705646,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        }
+      },
+      "label_events": {
+        "place": {
+          "indoor_deep": 9,
+          "footbridge": 2,
+          "elevator": 3,
+          "semi_outdoor": 2,
+          "outdoor": 8,
+          "tunnel": 2,
+          "indoor_near_window": 2,
+          "stairwell": 1
+        },
+        "transport": {
+          "unknown": 2,
+          "on_foot": 25,
+          "bus": 2
+        },
+        "motion": {
+          "unknown": 1,
+          "walking_with_minor_stops": 26,
+          "standing": 2
+        },
+        "pose": {
+          "unknown": 3,
+          "hand_holding_horizontal": 26
+        }
+      },
+      "bytes": 12796287,
+      "sha256": "ee7414a675108657f5cc3b78ba7746c98bc0d3acfa996288d86c9ec71e44eaf9",
+      "duration_s": 2706.14
+    },
+    {
+      "session_id": "session_03",
+      "streams": {
+        "accel.csv": {
+          "rows": 154034,
+          "columns": [
+            "t_rel_ms",
+            "ax",
+            "ay",
+            "az"
+          ],
+          "min_relative_ms": 0,
+          "max_relative_ms": 1542670,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "audio.csv": {
+          "rows": 336,
+          "columns": [
+            "t_rel_ms",
+            "rms",
+            "dbfs",
+            "peak"
+          ],
+          "min_relative_ms": 468,
+          "max_relative_ms": 1538769,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "cell_snapshot.csv": {
+          "rows": 1344,
+          "columns": [
+            "t_rel_ms",
+            "cell_id",
+            "rat",
+            "registered",
+            "dbm",
+            "rsrp",
+            "rsrq",
+            "rssnr",
+            "cqi",
+            "ta",
+            "ssRsrp",
+            "ssRsrq",
+            "ssSinr",
+            "csiRsrp",
+            "csiRsrq",
+            "csiSinr",
+            "level"
+          ],
+          "min_relative_ms": 18,
+          "max_relative_ms": 1541928,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gnss_fix.csv": {
+          "rows": 847,
+          "columns": [
+            "t_rel_ms",
+            "provider",
+            "speed_mps",
+            "bearing_deg",
+            "acc_m",
+            "vertAcc_m",
+            "speedAcc_mps",
+            "bearingAcc_deg"
+          ],
+          "min_relative_ms": 672,
+          "max_relative_ms": 1181127,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gnss_sv.csv": {
+          "rows": 85514,
+          "columns": [
+            "t_rel_ms",
+            "svid",
+            "constellation",
+            "usedInFix",
+            "cn0_dbhz",
+            "elev_deg",
+            "az_deg",
+            "cf_hz",
+            "hasAlm",
+            "hasEph"
+          ],
+          "min_relative_ms": 665,
+          "max_relative_ms": 1542092,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gyro.csv": {
+          "rows": 77128,
+          "columns": [
+            "t_rel_ms",
+            "gx",
+            "gy",
+            "gz"
+          ],
+          "min_relative_ms": 588,
+          "max_relative_ms": 1542661,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "labels.csv": {
+          "rows": 16,
+          "columns": [
+            "t_rel_ms",
+            "place",
+            "transport",
+            "motion",
+            "pose"
+          ],
+          "min_relative_ms": 5267,
+          "max_relative_ms": 1242037,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "light.csv": {
+          "rows": 4409,
+          "columns": [
+            "t_rel_ms",
+            "light_lux"
+          ],
+          "min_relative_ms": 1,
+          "max_relative_ms": 1542541,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "mag.csv": {
+          "rows": 154033,
+          "columns": [
+            "t_rel_ms",
+            "mx",
+            "my",
+            "mz",
+            "mag_norm"
+          ],
+          "min_relative_ms": 2,
+          "max_relative_ms": 1542670,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "pressure.csv": {
+          "rows": 19283,
+          "columns": [
+            "t_rel_ms",
+            "pressure_hpa"
+          ],
+          "min_relative_ms": 582,
+          "max_relative_ms": 1542622,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "proximity.csv": {
+          "rows": 1,
+          "columns": [
+            "t_rel_ms",
+            "proximity_cm"
+          ],
+          "min_relative_ms": 1,
+          "max_relative_ms": 1,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "rotation.csv": {
+          "rows": 77134,
+          "columns": [
+            "t_rel_ms",
+            "qx",
+            "qy",
+            "qz",
+            "qw",
+            "yaw_deg",
+            "pitch_deg",
+            "roll_deg"
+          ],
+          "min_relative_ms": 2,
+          "max_relative_ms": 1542664,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "wifi_ap.csv": {
+          "rows": 53098,
+          "columns": [
+            "t_rel_ms",
+            "ap_id",
+            "frequency",
+            "level",
+            "centerFreq0",
+            "centerFreq1",
+            "channelWidth"
+          ],
+          "min_relative_ms": 659,
+          "max_relative_ms": 1540776,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "wifi_scan.csv": {
+          "rows": 520,
+          "columns": [
+            "t_rel_ms",
+            "elapsed_ms",
+            "ap_count",
+            "mean_level",
+            "strongest_level"
+          ],
+          "min_relative_ms": 659,
+          "max_relative_ms": 1540776,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        }
+      },
+      "label_events": {
+        "place": {
+          "semi_outdoor": 5,
+          "outdoor": 2,
+          "elevator": 2,
+          "indoor_deep": 5,
+          "footbridge": 2
+        },
+        "transport": {
+          "unknown": 1,
+          "on_foot": 15
+        },
+        "motion": {
+          "unknown": 2,
+          "walking_with_minor_stops": 12,
+          "on_table": 2
+        },
+        "pose": {
+          "unknown": 3,
+          "hand_holding_horizontal": 12,
+          "on_table": 1
+        }
+      },
+      "bytes": 7092710,
+      "sha256": "ff2a1140035be1e8808d38ea10a902e21604622d7d043e22a7692e03760f837a",
+      "duration_s": 1542.67
+    },
+    {
+      "session_id": "session_04",
+      "streams": {
+        "accel.csv": {
+          "rows": 84574,
+          "columns": [
+            "t_rel_ms",
+            "ax",
+            "ay",
+            "az"
+          ],
+          "min_relative_ms": 2,
+          "max_relative_ms": 1251276,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "audio.csv": {
+          "rows": 273,
+          "columns": [
+            "t_rel_ms",
+            "rms",
+            "dbfs",
+            "peak"
+          ],
+          "min_relative_ms": 589,
+          "max_relative_ms": 1248790,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "cell_snapshot.csv": {
+          "rows": 737,
+          "columns": [
+            "t_rel_ms",
+            "cell_id",
+            "rat",
+            "registered",
+            "dbm",
+            "rsrp",
+            "rsrq",
+            "rssnr",
+            "cqi",
+            "ta",
+            "ssRsrp",
+            "ssRsrq",
+            "ssSinr",
+            "csiRsrp",
+            "csiRsrq",
+            "csiSinr",
+            "level"
+          ],
+          "min_relative_ms": 15,
+          "max_relative_ms": 1250373,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gnss_fix.csv": {
+          "rows": 240,
+          "columns": [
+            "t_rel_ms",
+            "provider",
+            "speed_mps",
+            "bearing_deg",
+            "acc_m",
+            "vertAcc_m",
+            "speedAcc_mps",
+            "bearingAcc_deg"
+          ],
+          "min_relative_ms": 2606,
+          "max_relative_ms": 1217609,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gnss_sv.csv": {
+          "rows": 46546,
+          "columns": [
+            "t_rel_ms",
+            "svid",
+            "constellation",
+            "usedInFix",
+            "cn0_dbhz",
+            "elev_deg",
+            "az_deg",
+            "cf_hz",
+            "hasAlm",
+            "hasEph"
+          ],
+          "min_relative_ms": 1094,
+          "max_relative_ms": 1250593,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gyro.csv": {
+          "rows": 62559,
+          "columns": [
+            "t_rel_ms",
+            "gx",
+            "gy",
+            "gz"
+          ],
+          "min_relative_ms": 724,
+          "max_relative_ms": 1251269,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "labels.csv": {
+          "rows": 20,
+          "columns": [
+            "t_rel_ms",
+            "place",
+            "transport",
+            "motion",
+            "pose"
+          ],
+          "min_relative_ms": 3257,
+          "max_relative_ms": 1218423,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "light.csv": {
+          "rows": 3576,
+          "columns": [
+            "t_rel_ms",
+            "light_lux"
+          ],
+          "min_relative_ms": 2,
+          "max_relative_ms": 1251047,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "mag.csv": {
+          "rows": 84569,
+          "columns": [
+            "t_rel_ms",
+            "mx",
+            "my",
+            "mz",
+            "mag_norm"
+          ],
+          "min_relative_ms": 7,
+          "max_relative_ms": 1251276,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "pressure.csv": {
+          "rows": 11151,
+          "columns": [
+            "t_rel_ms",
+            "pressure_hpa"
+          ],
+          "min_relative_ms": 720,
+          "max_relative_ms": 1251207,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "proximity.csv": {
+          "rows": 64,
+          "columns": [
+            "t_rel_ms",
+            "proximity_cm"
+          ],
+          "min_relative_ms": 0,
+          "max_relative_ms": 721861,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "rotation.csv": {
+          "rows": 62565,
+          "columns": [
+            "t_rel_ms",
+            "qx",
+            "qy",
+            "qz",
+            "qw",
+            "yaw_deg",
+            "pitch_deg",
+            "roll_deg"
+          ],
+          "min_relative_ms": 3,
+          "max_relative_ms": 1251270,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "wifi_ap.csv": {
+          "rows": 40790,
+          "columns": [
+            "t_rel_ms",
+            "ap_id",
+            "frequency",
+            "level",
+            "centerFreq0",
+            "centerFreq1",
+            "channelWidth"
+          ],
+          "min_relative_ms": 1831,
+          "max_relative_ms": 1249209,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "wifi_scan.csv": {
+          "rows": 386,
+          "columns": [
+            "t_rel_ms",
+            "elapsed_ms",
+            "ap_count",
+            "mean_level",
+            "strongest_level"
+          ],
+          "min_relative_ms": 1831,
+          "max_relative_ms": 1249209,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        }
+      },
+      "label_events": {
+        "place": {
+          "indoor_deep": 11,
+          "footbridge": 4,
+          "elevator": 2,
+          "semi_outdoor": 2,
+          "outdoor": 1
+        },
+        "transport": {
+          "unknown": 1,
+          "on_foot": 19
+        },
+        "motion": {
+          "unknown": 2,
+          "on_table": 2,
+          "walking_with_minor_stops": 16
+        },
+        "pose": {
+          "unknown": 3,
+          "on_table": 2,
+          "hand_holding_horizontal": 15
+        }
+      },
+      "bytes": 4119275,
+      "sha256": "f86765ab71b4c3f04ec601223b5fb16b393f390f7eede0e5e0b0ca9d7287a342",
+      "duration_s": 1251.276
+    },
+    {
+      "session_id": "session_05",
+      "streams": {
+        "accel.csv": {
+          "rows": 75861,
+          "columns": [
+            "t_rel_ms",
+            "ax",
+            "ay",
+            "az"
+          ],
+          "min_relative_ms": 6,
+          "max_relative_ms": 729537,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "audio.csv": {
+          "rows": 160,
+          "columns": [
+            "t_rel_ms",
+            "rms",
+            "dbfs",
+            "peak"
+          ],
+          "min_relative_ms": 564,
+          "max_relative_ms": 728862,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "cell_snapshot.csv": {
+          "rows": 1159,
+          "columns": [
+            "t_rel_ms",
+            "cell_id",
+            "rat",
+            "registered",
+            "dbm",
+            "rsrp",
+            "rsrq",
+            "rssnr",
+            "cqi",
+            "ta",
+            "ssRsrp",
+            "ssRsrq",
+            "ssSinr",
+            "csiRsrp",
+            "csiRsrq",
+            "csiSinr",
+            "level"
+          ],
+          "min_relative_ms": 51,
+          "max_relative_ms": 729003,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gnss_fix.csv": {
+          "rows": 391,
+          "columns": [
+            "t_rel_ms",
+            "provider",
+            "speed_mps",
+            "bearing_deg",
+            "acc_m",
+            "vertAcc_m",
+            "speedAcc_mps",
+            "bearingAcc_deg"
+          ],
+          "min_relative_ms": 732,
+          "max_relative_ms": 615296,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gnss_sv.csv": {
+          "rows": 31193,
+          "columns": [
+            "t_rel_ms",
+            "svid",
+            "constellation",
+            "usedInFix",
+            "cn0_dbhz",
+            "elev_deg",
+            "az_deg",
+            "cf_hz",
+            "hasAlm",
+            "hasEph"
+          ],
+          "min_relative_ms": 727,
+          "max_relative_ms": 729293,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gyro.csv": {
+          "rows": 45279,
+          "columns": [
+            "t_rel_ms",
+            "gx",
+            "gy",
+            "gz"
+          ],
+          "min_relative_ms": 684,
+          "max_relative_ms": 729538,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "labels.csv": {
+          "rows": 11,
+          "columns": [
+            "t_rel_ms",
+            "place",
+            "transport",
+            "motion",
+            "pose"
+          ],
+          "min_relative_ms": 7892,
+          "max_relative_ms": 700128,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "light.csv": {
+          "rows": 2082,
+          "columns": [
+            "t_rel_ms",
+            "light_lux"
+          ],
+          "min_relative_ms": 5,
+          "max_relative_ms": 729348,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "mag.csv": {
+          "rows": 67516,
+          "columns": [
+            "t_rel_ms",
+            "mx",
+            "my",
+            "mz",
+            "mag_norm"
+          ],
+          "min_relative_ms": 25,
+          "max_relative_ms": 729537,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "pressure.csv": {
+          "rows": 8534,
+          "columns": [
+            "t_rel_ms",
+            "pressure_hpa"
+          ],
+          "min_relative_ms": 6,
+          "max_relative_ms": 729478,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "proximity.csv": {
+          "rows": 83,
+          "columns": [
+            "t_rel_ms",
+            "proximity_cm"
+          ],
+          "min_relative_ms": 0,
+          "max_relative_ms": 722040,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "rotation.csv": {
+          "rows": 36457,
+          "columns": [
+            "t_rel_ms",
+            "qx",
+            "qy",
+            "qz",
+            "qw",
+            "yaw_deg",
+            "pitch_deg",
+            "roll_deg"
+          ],
+          "min_relative_ms": 6,
+          "max_relative_ms": 729521,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "wifi_ap.csv": {
+          "rows": 0,
+          "columns": [
+            "t_rel_ms",
+            "ap_id",
+            "frequency",
+            "level",
+            "centerFreq0",
+            "centerFreq1",
+            "channelWidth"
+          ],
+          "min_relative_ms": null,
+          "max_relative_ms": 0,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "wifi_scan.csv": {
+          "rows": 0,
+          "columns": [
+            "t_rel_ms",
+            "elapsed_ms",
+            "ap_count",
+            "mean_level",
+            "strongest_level"
+          ],
+          "min_relative_ms": null,
+          "max_relative_ms": 0,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        }
+      },
+      "label_events": {
+        "place": {
+          "unlabeled": 3,
+          "elevator": 1,
+          "semi_outdoor": 1,
+          "outdoor": 3,
+          "tunnel": 1,
+          "stairwell": 1,
+          "indoor_deep": 1
+        },
+        "transport": {
+          "on_foot": 11
+        },
+        "motion": {
+          "unknown": 1,
+          "walking_with_minor_stops": 10
+        },
+        "pose": {
+          "unknown": 2,
+          "hand_holding_horizontal": 4,
+          "hand_swinging": 5
+        }
+      },
+      "bytes": 3541391,
+      "sha256": "238ff13280bdee555bf70d930653b96864528ddfd82b7cf9e5cb59a239900baf",
+      "duration_s": 729.538
+    },
+    {
+      "session_id": "session_06",
+      "streams": {
+        "accel.csv": {
+          "rows": 204050,
+          "columns": [
+            "t_rel_ms",
+            "ax",
+            "ay",
+            "az"
+          ],
+          "min_relative_ms": 0,
+          "max_relative_ms": 2044965,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "audio.csv": {
+          "rows": 447,
+          "columns": [
+            "t_rel_ms",
+            "rms",
+            "dbfs",
+            "peak"
+          ],
+          "min_relative_ms": 622,
+          "max_relative_ms": 2041458,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "cell_snapshot.csv": {
+          "rows": 1986,
+          "columns": [
+            "t_rel_ms",
+            "cell_id",
+            "rat",
+            "registered",
+            "dbm",
+            "rsrp",
+            "rsrq",
+            "rssnr",
+            "cqi",
+            "ta",
+            "ssRsrp",
+            "ssRsrq",
+            "ssSinr",
+            "csiRsrp",
+            "csiRsrq",
+            "csiSinr",
+            "level"
+          ],
+          "min_relative_ms": 22,
+          "max_relative_ms": 2040055,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gnss_fix.csv": {
+          "rows": 795,
+          "columns": [
+            "t_rel_ms",
+            "provider",
+            "speed_mps",
+            "bearing_deg",
+            "acc_m",
+            "vertAcc_m",
+            "speedAcc_mps",
+            "bearingAcc_deg"
+          ],
+          "min_relative_ms": 808,
+          "max_relative_ms": 990342,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gnss_sv.csv": {
+          "rows": 80966,
+          "columns": [
+            "t_rel_ms",
+            "svid",
+            "constellation",
+            "usedInFix",
+            "cn0_dbhz",
+            "elev_deg",
+            "az_deg",
+            "cf_hz",
+            "hasAlm",
+            "hasEph"
+          ],
+          "min_relative_ms": 805,
+          "max_relative_ms": 2044978,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "gyro.csv": {
+          "rows": 102196,
+          "columns": [
+            "t_rel_ms",
+            "gx",
+            "gy",
+            "gz"
+          ],
+          "min_relative_ms": 754,
+          "max_relative_ms": 2044965,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "labels.csv": {
+          "rows": 20,
+          "columns": [
+            "t_rel_ms",
+            "place",
+            "transport",
+            "motion",
+            "pose"
+          ],
+          "min_relative_ms": 3256,
+          "max_relative_ms": 1048568,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "light.csv": {
+          "rows": 5842,
+          "columns": [
+            "t_rel_ms",
+            "light_lux"
+          ],
+          "min_relative_ms": 3,
+          "max_relative_ms": 2044963,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "mag.csv": {
+          "rows": 204047,
+          "columns": [
+            "t_rel_ms",
+            "mx",
+            "my",
+            "mz",
+            "mag_norm"
+          ],
+          "min_relative_ms": 20,
+          "max_relative_ms": 2044965,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "pressure.csv": {
+          "rows": 25535,
+          "columns": [
+            "t_rel_ms",
+            "pressure_hpa"
+          ],
+          "min_relative_ms": 751,
+          "max_relative_ms": 2044964,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "proximity.csv": {
+          "rows": 463,
+          "columns": [
+            "t_rel_ms",
+            "proximity_cm"
+          ],
+          "min_relative_ms": 2,
+          "max_relative_ms": 2038262,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "rotation.csv": {
+          "rows": 102202,
+          "columns": [
+            "t_rel_ms",
+            "qx",
+            "qy",
+            "qz",
+            "qw",
+            "yaw_deg",
+            "pitch_deg",
+            "roll_deg"
+          ],
+          "min_relative_ms": 6,
+          "max_relative_ms": 2044965,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "wifi_ap.csv": {
+          "rows": 185,
+          "columns": [
+            "t_rel_ms",
+            "ap_id",
+            "frequency",
+            "level",
+            "centerFreq0",
+            "centerFreq1",
+            "channelWidth"
+          ],
+          "min_relative_ms": 2038477,
+          "max_relative_ms": 2040699,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        },
+        "wifi_scan.csv": {
+          "rows": 2,
+          "columns": [
+            "t_rel_ms",
+            "elapsed_ms",
+            "ap_count",
+            "mean_level",
+            "strongest_level"
+          ],
+          "min_relative_ms": 2038477,
+          "max_relative_ms": 2040699,
+          "bad_time_rows": 0,
+          "negative_time_rows": 0,
+          "out_of_order_time_rows": 0
+        }
+      },
+      "label_events": {
+        "place": {
+          "outdoor": 7,
+          "tunnel": 2,
+          "semi_outdoor": 1,
+          "indoor_deep": 7,
+          "footbridge": 3
+        },
+        "transport": {
+          "unknown": 1,
+          "on_foot": 19
+        },
+        "motion": {
+          "unknown": 2,
+          "walking_with_minor_stops": 16,
+          "on_table": 2
+        },
+        "pose": {
+          "unknown": 3,
+          "hand_holding_horizontal": 7,
+          "hand_swinging": 9,
+          "on_table": 1
+        }
+      },
+      "bytes": 8107229,
+      "sha256": "f92c6118614d0b6fee5f06f5e70e1541d7f8b37b12355ea78958786f726b73b3",
+      "duration_s": 2044.978
+    }
+  ]
+}
